@@ -12,9 +12,11 @@ var logger = function(val) {
 	console.log(val);
 };
 _.each(food, logger);
+```
 
 # AnimalMaker
 
+```js
 function AnimalMaker(name) {
 	return {
 		speak: function() {
